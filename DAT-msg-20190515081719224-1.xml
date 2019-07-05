@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CLS TY="FSHLOG" ID="44399" ST="VAL" xmlns="http://ec.europa.eu/fisheries/schema/ers/v3">
+    <OPS AD="SYC" FR="SYC" ON="CLS19051508171901" OD="2019-05-14T07:46:06Z" OT="07:46">
+        <DAT>
+            <ERS RN="SYC19051508171901" RD="2019-05-14T07:46:06Z" RT="07:46">
+                <LOG FS="SYC" TN="20190001">
+                    <DEP DA="2019-05-13T07:44:46.000Z" TI="07:44" PO="ESALG" LOCH="0"/>
+                </LOG>
+            </ERS>
+        </DAT>
+    </OPS>
+</CLS>

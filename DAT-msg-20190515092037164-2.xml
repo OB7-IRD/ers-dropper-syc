@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CLS TY="FSHLOG" ID="44399" ST="VAL" xmlns="http://ec.europa.eu/fisheries/schema/ers/v3">
+    <OPS AD="SYC" FR="SYC" ON="CLS19051509203702" OD="2019-05-14T08:23:05Z" OT="08:23">
+        <DAT>
+            <ERS RN="SYC19051509203702" RD="2019-05-14T08:23:05Z" RT="08:23">
+                <LOG FS="SYC" TN="20190001">
+                    <FAR DA="2019-05-14T08:10:06.000Z" TI="08:10">
+                        <POS LT="43.53830" LG="1.47930"/>
+                        <SPE SN="ALB" WT="300.0" SZ="M_ALB2" SE="1" SI="2" OR="1" RT="true"/>
+                        <FAD SA="24" BT="1" BI="513988" FT="1" VT="6" WT="293" WD="12" WS="2" CD="30.0" CS="2.57"/>
+                    </FAR>
+                </LOG>
+            </ERS>
+        </DAT>
+    </OPS>
+</CLS>
