@@ -6,7 +6,7 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
+
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -44,33 +44,33 @@ public class DlsDeclarationType {
 
     @XmlAttribute(name = "CT")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger ct;
+    protected Integer ct;
     @XmlAttribute(name = "CN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String cn;
     @XmlAttribute(name = "FZ")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger fz;
+    protected Integer fz;
 
     /**
      * Obtient la valeur de la propriété ct.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getCT() {
+    public Integer getCT() {
         return ct;
     }
 
     /**
      * Définit la valeur de la propriété ct.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setCT(BigInteger value) {
+    public void setCT(Integer value) {
         this.ct = value;
     }
 
@@ -99,22 +99,22 @@ public class DlsDeclarationType {
     /**
      * Obtient la valeur de la propriété fz.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getFZ() {
+    public Integer getFZ() {
         return fz;
     }
 
     /**
      * Définit la valeur de la propriété fz.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setFZ(BigInteger value) {
+    public void setFZ(Integer value) {
         this.fz = value;
     }
 

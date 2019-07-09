@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -62,7 +61,7 @@ public class GlsDeclarationType {
     protected String ti;
     @XmlAttribute(name = "NN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger nn;
+    protected Integer nn;
     @XmlAttribute(name = "MG")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String mg;
@@ -136,22 +135,22 @@ public class GlsDeclarationType {
     /**
      * Obtient la valeur de la propriété nn.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getNN() {
+    public Integer getNN() {
         return nn;
     }
 
     /**
      * Définit la valeur de la propriété nn.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNN(BigInteger value) {
+    public void setNN(Integer value) {
         this.nn = value;
     }
 

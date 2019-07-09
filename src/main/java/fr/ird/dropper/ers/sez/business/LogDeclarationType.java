@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Generated;
@@ -211,7 +210,7 @@ public class LogDeclarationType {
     protected String so;
     @XmlAttribute(name = "VD")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger vd;
+    protected Integer vd;
     @XmlAttribute(name = "LI")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String li;
@@ -1069,22 +1068,22 @@ public class LogDeclarationType {
     /**
      * Obtient la valeur de la propriété vd.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getVD() {
+    public Integer getVD() {
         return vd;
     }
 
     /**
      * Définit la valeur de la propriété vd.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setVD(BigInteger value) {
+    public void setVD(Integer value) {
         this.vd = value;
     }
 

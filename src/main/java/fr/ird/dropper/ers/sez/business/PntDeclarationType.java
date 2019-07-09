@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Generated;
@@ -77,7 +76,7 @@ public class PntDeclarationType {
     protected String in;
     @XmlAttribute(name = "CT")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger ct;
+    protected Integer ct;
 
     /**
      * Gets the value of the spe property.
@@ -222,22 +221,22 @@ public class PntDeclarationType {
     /**
      * Obtient la valeur de la propriété ct.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getCT() {
+    public Integer getCT() {
         return ct;
     }
 
     /**
      * Définit la valeur de la propriété ct.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setCT(BigInteger value) {
+    public void setCT(Integer value) {
         this.ct = value;
     }
 

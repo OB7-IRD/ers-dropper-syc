@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Generated;
@@ -94,10 +93,10 @@ public class DepDeclarationType {
     protected TripTypeEnum tp;
     @XmlAttribute(name = "FC")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger fc;
+    protected Integer fc;
     @XmlAttribute(name = "NC")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger nc;
+    protected Integer nc;
     @XmlAttribute(name = "LOCH")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String loch;
@@ -341,44 +340,44 @@ public class DepDeclarationType {
     /**
      * Obtient la valeur de la propriété fc.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getFC() {
+    public Integer getFC() {
         return fc;
     }
 
     /**
      * Définit la valeur de la propriété fc.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setFC(BigInteger value) {
+    public void setFC(Integer value) {
         this.fc = value;
     }
 
     /**
      * Obtient la valeur de la propriété nc.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getNC() {
+    public Integer getNC() {
         return nc;
     }
 
     /**
      * Définit la valeur de la propriété nc.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNC(BigInteger value) {
+    public void setNC(Integer value) {
         this.nc = value;
     }
 

@@ -6,8 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -57,10 +55,10 @@ public class SpeLicDeclarationType {
     protected String sn;
     @XmlAttribute(name = "WT")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal wt;
+    protected Double wt;
     @XmlAttribute(name = "NF")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger nf;
+    protected Integer nf;
     @XmlAttribute(name = "ST")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String st;
@@ -90,44 +88,44 @@ public class SpeLicDeclarationType {
     /**
      * Obtient la valeur de la propriété wt.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getWT() {
+    public Double getWT() {
         return wt;
     }
 
     /**
      * Définit la valeur de la propriété wt.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setWT(BigDecimal value) {
+    public void setWT(Double value) {
         this.wt = value;
     }
 
     /**
      * Obtient la valeur de la propriété nf.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getNF() {
+    public Integer getNF() {
         return nf;
     }
 
     /**
      * Définit la valeur de la propriété nf.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNF(BigInteger value) {
+    public void setNF(Integer value) {
         this.nf = value;
     }
 

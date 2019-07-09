@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigDecimal;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -58,10 +57,10 @@ public class CssDeclarationType {
     protected SpeDeclarationType spe;
     @XmlAttribute(name = "FP")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal fp;
+    protected Double fp;
     @XmlAttribute(name = "TP")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal tp;
+    protected Double tp;
     @XmlAttribute(name = "CR")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String cr;
@@ -103,44 +102,44 @@ public class CssDeclarationType {
     /**
      * Obtient la valeur de la propriété fp.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getFP() {
+    public Double getFP() {
         return fp;
     }
 
     /**
      * Définit la valeur de la propriété fp.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setFP(BigDecimal value) {
+    public void setFP(Double value) {
         this.fp = value;
     }
 
     /**
      * Obtient la valeur de la propriété tp.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getTP() {
+    public Double getTP() {
         return tp;
     }
 
     /**
      * Définit la valeur de la propriété tp.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setTP(BigDecimal value) {
+    public void setTP(Double value) {
         this.tp = value;
     }
 

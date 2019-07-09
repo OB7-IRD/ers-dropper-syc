@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigDecimal;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -44,52 +43,52 @@ public class SizDeclarationType {
 
     @XmlAttribute(name = "S6")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal s6;
+    protected Double s6;
     @XmlAttribute(name = "S8")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal s8;
+    protected Double s8;
 
     /**
      * Obtient la valeur de la propriété s6.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getS6() {
+    public Double getS6() {
         return s6;
     }
 
     /**
      * Définit la valeur de la propriété s6.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setS6(BigDecimal value) {
+    public void setS6(Double value) {
         this.s6 = value;
     }
 
     /**
      * Obtient la valeur de la propriété s8.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getS8() {
+    public Double getS8() {
         return s8;
     }
 
     /**
      * Définit la valeur de la propriété s8.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setS8(BigDecimal value) {
+    public void setS8(Double value) {
         this.s8 = value;
     }
 

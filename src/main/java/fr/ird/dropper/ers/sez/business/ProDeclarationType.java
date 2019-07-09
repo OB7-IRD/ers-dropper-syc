@@ -6,8 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -59,13 +57,13 @@ public class ProDeclarationType {
     protected String ty;
     @XmlAttribute(name = "NN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger nn;
+    protected Integer nn;
     @XmlAttribute(name = "AW")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal aw;
+    protected Double aw;
     @XmlAttribute(name = "CF")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigDecimal cf;
+    protected Double cf;
 
     /**
      * Obtient la valeur de la propriété ff.
@@ -158,66 +156,66 @@ public class ProDeclarationType {
     /**
      * Obtient la valeur de la propriété nn.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getNN() {
+    public Integer getNN() {
         return nn;
     }
 
     /**
      * Définit la valeur de la propriété nn.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNN(BigInteger value) {
+    public void setNN(Integer value) {
         this.nn = value;
     }
 
     /**
      * Obtient la valeur de la propriété aw.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getAW() {
+    public Double getAW() {
         return aw;
     }
 
     /**
      * Définit la valeur de la propriété aw.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setAW(BigDecimal value) {
+    public void setAW(Double value) {
         this.aw = value;
     }
 
     /**
      * Obtient la valeur de la propriété cf.
      *
-     * @return possible object is {@link BigDecimal }
+     * @return possible object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigDecimal getCF() {
+    public Double getCF() {
         return cf;
     }
 
     /**
      * Définit la valeur de la propriété cf.
      *
-     * @param value allowed object is {@link BigDecimal }
+     * @param value allowed object is {@link Double }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setCF(BigDecimal value) {
+    public void setCF(Double value) {
         this.cf = value;
     }
 

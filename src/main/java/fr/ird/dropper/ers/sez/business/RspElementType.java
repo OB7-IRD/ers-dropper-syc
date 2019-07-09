@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Generated;
@@ -72,7 +71,7 @@ public class RspElementType {
     protected String re;
     @XmlAttribute(name = "RP")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger rp;
+    protected Integer rp;
 
     /**
      * Gets the value of the ers property.
@@ -202,22 +201,22 @@ public class RspElementType {
     /**
      * Obtient la valeur de la propriété rp.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getRP() {
+    public Integer getRP() {
         return rp;
     }
 
     /**
      * Définit la valeur de la propriété rp.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setRP(BigInteger value) {
+    public void setRP(Integer value) {
         this.rp = value;
     }
 

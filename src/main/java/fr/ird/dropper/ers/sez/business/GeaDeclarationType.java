@@ -6,7 +6,6 @@
 //
 package fr.ird.dropper.ers.sez.business;
 
-import java.math.BigInteger;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -91,55 +90,55 @@ public class GeaDeclarationType {
     protected String ge;
     @XmlAttribute(name = "ME")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger me;
+    protected Integer me;
     @XmlAttribute(name = "GC")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String gc;
     @XmlAttribute(name = "FO")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger fo;
+    protected Integer fo;
     @XmlAttribute(name = "DU")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger du;
+    protected Integer du;
     @XmlAttribute(name = "SD")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger sd;
+    protected Integer sd;
     @XmlAttribute(name = "FD")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger fd;
+    protected Integer fd;
     @XmlAttribute(name = "NH")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger nh;
+    protected Integer nh;
     @XmlAttribute(name = "GL")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger gl;
+    protected Integer gl;
     @XmlAttribute(name = "GD")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger gd;
+    protected Integer gd;
     @XmlAttribute(name = "QG")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger qg;
+    protected Integer qg;
     @XmlAttribute(name = "TL")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger tl;
+    protected Integer tl;
     @XmlAttribute(name = "VA")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String va;
     @XmlAttribute(name = "IF1")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger if1;
+    protected Integer if1;
     @XmlAttribute(name = "IF2")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger if2;
+    protected Integer if2;
     @XmlAttribute(name = "IF3")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger if3;
+    protected Integer if3;
     @XmlAttribute(name = "HN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger hn;
+    protected Integer hn;
     @XmlAttribute(name = "HNBF")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected BigInteger hnbf;
+    protected Integer hnbf;
 
     /**
      * Obtient la valeur de la propriété ges.
@@ -276,22 +275,22 @@ public class GeaDeclarationType {
     /**
      * Obtient la valeur de la propriété me.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getME() {
+    public Integer getME() {
         return me;
     }
 
     /**
      * Définit la valeur de la propriété me.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setME(BigInteger value) {
+    public void setME(Integer value) {
         this.me = value;
     }
 
@@ -320,198 +319,198 @@ public class GeaDeclarationType {
     /**
      * Obtient la valeur de la propriété fo.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getFO() {
+    public Integer getFO() {
         return fo;
     }
 
     /**
      * Définit la valeur de la propriété fo.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setFO(BigInteger value) {
+    public void setFO(Integer value) {
         this.fo = value;
     }
 
     /**
      * Obtient la valeur de la propriété du.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getDU() {
+    public Integer getDU() {
         return du;
     }
 
     /**
      * Définit la valeur de la propriété du.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setDU(BigInteger value) {
+    public void setDU(Integer value) {
         this.du = value;
     }
 
     /**
      * Obtient la valeur de la propriété sd.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getSD() {
+    public Integer getSD() {
         return sd;
     }
 
     /**
      * Définit la valeur de la propriété sd.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setSD(BigInteger value) {
+    public void setSD(Integer value) {
         this.sd = value;
     }
 
     /**
      * Obtient la valeur de la propriété fd.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getFD() {
+    public Integer getFD() {
         return fd;
     }
 
     /**
      * Définit la valeur de la propriété fd.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setFD(BigInteger value) {
+    public void setFD(Integer value) {
         this.fd = value;
     }
 
     /**
      * Obtient la valeur de la propriété nh.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getNH() {
+    public Integer getNH() {
         return nh;
     }
 
     /**
      * Définit la valeur de la propriété nh.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNH(BigInteger value) {
+    public void setNH(Integer value) {
         this.nh = value;
     }
 
     /**
      * Obtient la valeur de la propriété gl.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getGL() {
+    public Integer getGL() {
         return gl;
     }
 
     /**
      * Définit la valeur de la propriété gl.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setGL(BigInteger value) {
+    public void setGL(Integer value) {
         this.gl = value;
     }
 
     /**
      * Obtient la valeur de la propriété gd.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getGD() {
+    public Integer getGD() {
         return gd;
     }
 
     /**
      * Définit la valeur de la propriété gd.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setGD(BigInteger value) {
+    public void setGD(Integer value) {
         this.gd = value;
     }
 
     /**
      * Obtient la valeur de la propriété qg.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getQG() {
+    public Integer getQG() {
         return qg;
     }
 
     /**
      * Définit la valeur de la propriété qg.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setQG(BigInteger value) {
+    public void setQG(Integer value) {
         this.qg = value;
     }
 
     /**
      * Obtient la valeur de la propriété tl.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getTL() {
+    public Integer getTL() {
         return tl;
     }
 
     /**
      * Définit la valeur de la propriété tl.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setTL(BigInteger value) {
+    public void setTL(Integer value) {
         this.tl = value;
     }
 
@@ -540,110 +539,110 @@ public class GeaDeclarationType {
     /**
      * Obtient la valeur de la propriété if1.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getIF1() {
+    public Integer getIF1() {
         return if1;
     }
 
     /**
      * Définit la valeur de la propriété if1.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setIF1(BigInteger value) {
+    public void setIF1(Integer value) {
         this.if1 = value;
     }
 
     /**
      * Obtient la valeur de la propriété if2.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getIF2() {
+    public Integer getIF2() {
         return if2;
     }
 
     /**
      * Définit la valeur de la propriété if2.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setIF2(BigInteger value) {
+    public void setIF2(Integer value) {
         this.if2 = value;
     }
 
     /**
      * Obtient la valeur de la propriété if3.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getIF3() {
+    public Integer getIF3() {
         return if3;
     }
 
     /**
      * Définit la valeur de la propriété if3.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setIF3(BigInteger value) {
+    public void setIF3(Integer value) {
         this.if3 = value;
     }
 
     /**
      * Obtient la valeur de la propriété hn.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getHN() {
+    public Integer getHN() {
         return hn;
     }
 
     /**
      * Définit la valeur de la propriété hn.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setHN(BigInteger value) {
+    public void setHN(Integer value) {
         this.hn = value;
     }
 
     /**
      * Obtient la valeur de la propriété hnbf.
      *
-     * @return possible object is {@link BigInteger }
+     * @return possible object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public BigInteger getHNBF() {
+    public Integer getHNBF() {
         return hnbf;
     }
 
     /**
      * Définit la valeur de la propriété hnbf.
      *
-     * @param value allowed object is {@link BigInteger }
+     * @param value allowed object is {@link Integer }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setHNBF(BigInteger value) {
+    public void setHNBF(Integer value) {
         this.hnbf = value;
     }
 
