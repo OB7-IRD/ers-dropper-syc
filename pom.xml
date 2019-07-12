@@ -5,7 +5,7 @@
     <artifactId>ers-dropper-sez</artifactId>
     <packaging>jar</packaging>
     <version>0.1</version>
-    <name>ERS :: Dropper for SEZ</name>
+    <name>ERS :: Dropper for SYC</name>
     <inceptionYear>2017</inceptionYear>
     <organization>
         <name>Ob7, IRD</name>
@@ -13,7 +13,24 @@
     </organization>
     <url>http://maven.apache.org</url>
     <dependencies>
-      
+        <dependency>
+            <groupId>fr.ird</groupId>
+            <artifactId>ird-common</artifactId>
+            <version>1.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.ird</groupId>
+            <artifactId>driver-eva</artifactId>
+            <version>2.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -50,7 +67,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-<!--            <plugin>
+            <!--            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
                 <version>2.4</version>
