@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'ERS Dropper for Seychelles'
-copyright = '2019, Julien Lebranchu'
+copyright = '2019, IRD'
 author = 'Julien Lebranchu <julien.lebranchu@ird.fr>'
 
 # The full version, including alpha/beta/rc tags
@@ -47,8 +47,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
+# 
+# sphinx_rtd_theme = The standard RTD documentation theme
+# flask 	The standard Flask documentation theme for large projects
+# flask_small 	Small single page theme. Intended to be used by very small addon libraries for Flask.
 #
 html_theme = "sphinx_rtd_theme"
+
+# flasky To use Flask pygments style
+# monokai 
+pygments_style = 'monokai'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

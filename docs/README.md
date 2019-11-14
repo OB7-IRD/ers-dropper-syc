@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document contains information on how the ERS Dropper documentation is
+This document contains information on how the **ERS Dropper for Seychelles** documentation is
 built and published as well as a few conventions one should be aware of
 before making changes to the doc.
 
@@ -48,7 +48,7 @@ directory. Note: you may need to adjust depending on your OS.
 sudo pip install Sphinx
 sudo pip install sphinx_rtd_theme
 sudo pip install recommonmark==0.4.0
-cd fabric/docs # Be in this directory. Makefile sits there.
+cd ers-dropper-syc/docs # Be in this directory. Makefile sits there.
 make html
 ```
 
