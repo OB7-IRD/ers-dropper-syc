@@ -4,7 +4,7 @@ How to Install **ERS Dropper**
 Prerequisites
 -------------
 
-ERS Dropper requires to install Python_ 3, Java_ and the PostgreSQL_'s relational database management system. Moreover the user you are logging in as must have sudo privileges.
+ERS Dropper requires to install `Python 3 <http://www.python.org/>`_, Java_ and the PostgreSQL_'s relational database management system. Moreover the user you are logging in as must have sudo privileges.
 
 Installation
 ------------
@@ -185,6 +185,5 @@ For Linux OS, you will need to add the script at crontab. You can edit the cront
 
 
 .. _Tomcat: https://tomcat.apache.org/
-.. _Python: https://tomcat.apache.org/
 .. _Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _PostgreSQL: https://www.postgresql.org/

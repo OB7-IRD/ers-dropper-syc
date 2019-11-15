@@ -21,7 +21,7 @@ SFA is setting up an electronic logbook on the Seychelles flagged purse seiners 
 
 Objectives
 ----------
-The main objective of this project is to develop software to transfer data from the HCM Manager into the AVDTH database used by the SFA statistical Section, in order to analyze logbook data with existing tools (T3, R script ...). The **ERS Dropper** project consist to extract, transform and load the logbook data from XML message in a database oriented.
+The main objective of this project is to develop software to transfer data from the HCM Manager into the AVDTH database used by the SFA statistical Section, in order to analyze logbook data with existing tools (T3, R script ...). The **ERS Dropper** project consist to extract, transform and load the logbook data from XML message in a business-oriented database.
 
 Data workflow
 -------------
