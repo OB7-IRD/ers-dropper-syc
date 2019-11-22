@@ -55,19 +55,19 @@ public interface EvenementDePeche extends Serializable {
      *
      * @return le log père
      */
-    LogDeclarationType getLog();
+    Log getLog();
 
     /**
      * Ajoute l'évènement à un LOG donné.
      *
      * @param log LOG auquel l'évènement sera ajouté.
      */
-    void addToLog(LogDeclarationType log);
+    void addToLog(Log log);
 
     /**
      * Retourne liste des RAS.
      *
      * @return liste des RAS
      */
-    List<RasDeclarationType> getRasList();
+    List<Ras> getRasList();
 }

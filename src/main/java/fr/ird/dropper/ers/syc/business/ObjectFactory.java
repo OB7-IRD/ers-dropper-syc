@@ -31,459 +31,459 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CLS }
+     * Create an instance of {@link Cls }
      *
      */
-    public CLS createCLS() {
-        return new CLS();
+    public Cls createCLS() {
+        return new Cls();
     }
 
     /**
-     * Create an instance of {@link ERS }
+     * Create an instance of {@link Ers }
      *
      */
-    public ERS createERS() {
-        return new ERS();
+    public Ers createERS() {
+        return new Ers();
     }
 
     /**
-     * Create an instance of {@link LogDeclarationType }
+     * Create an instance of {@link Log }
      *
      */
-    public LogDeclarationType createLogDeclarationType() {
-        return new LogDeclarationType();
+    public Log createLogDeclarationType() {
+        return new Log();
     }
 
     /**
-     * Create an instance of {@link SalDeclarationType }
+     * Create an instance of {@link Sal }
      *
      */
-    public SalDeclarationType createSalDeclarationType() {
-        return new SalDeclarationType();
+    public Sal createSalDeclarationType() {
+        return new Sal();
     }
 
     /**
-     * Create an instance of {@link TrnDeclarationType }
+     * Create an instance of {@link Trn }
      *
      */
-    public TrnDeclarationType createTrnDeclarationType() {
-        return new TrnDeclarationType();
+    public Trn createTrnDeclarationType() {
+        return new Trn();
     }
 
     /**
      * Create an instance of {@link CLS.OPS }
      *
      */
-    public OPS createCLSOPS() {
-        return new OPS();
+    public Ops createCLSOPS() {
+        return new Ops();
     }
 
     /**
-     * Create an instance of {@link LicDeclarationType }
+     * Create an instance of {@link Lic }
      *
      */
-    public LicDeclarationType createLicDeclarationType() {
-        return new LicDeclarationType();
+    public Lic createLicDeclarationType() {
+        return new Lic();
     }
 
     /**
-     * Create an instance of {@link DepDeclarationType }
+     * Create an instance of {@link Dep }
      *
      */
-    public DepDeclarationType createDepDeclarationType() {
-        return new DepDeclarationType();
+    public Dep createDepDeclarationType() {
+        return new Dep();
     }
 
     /**
-     * Create an instance of {@link GeaDeclarationType }
+     * Create an instance of {@link Gea }
      *
      */
-    public GeaDeclarationType createGeaDeclarationType() {
-        return new GeaDeclarationType();
+    public Gea createGeaDeclarationType() {
+        return new Gea();
     }
 
     /**
-     * Create an instance of {@link ShipOwnerDeclarationType }
+     * Create an instance of {@link ShipOwner }
      *
      */
-    public ShipOwnerDeclarationType createShipOwnerDeclarationType() {
-        return new ShipOwnerDeclarationType();
+    public ShipOwner createShipOwnerDeclarationType() {
+        return new ShipOwner();
     }
 
     /**
-     * Create an instance of {@link ShipOwnerSpeciesDeclarationType }
+     * Create an instance of {@link ShipOwnerSpecies }
      *
      */
-    public ShipOwnerSpeciesDeclarationType createShipOwnerSpeciesDeclarationType() {
-        return new ShipOwnerSpeciesDeclarationType();
+    public ShipOwnerSpecies createShipOwnerSpeciesDeclarationType() {
+        return new ShipOwnerSpecies();
     }
 
     /**
-     * Create an instance of {@link FarDeclarationType }
+     * Create an instance of {@link Far }
      *
      */
-    public FarDeclarationType createFarDeclarationType() {
-        return new FarDeclarationType();
+    public Far createFarDeclarationType() {
+        return new Far();
     }
 
     /**
-     * Create an instance of {@link RlcDeclarationType }
+     * Create an instance of {@link Rlc }
      *
      */
-    public RlcDeclarationType createRlcDeclarationType() {
-        return new RlcDeclarationType();
+    public Rlc createRlcDeclarationType() {
+        return new Rlc();
     }
 
     /**
-     * Create an instance of {@link TraDeclarationType }
+     * Create an instance of {@link Tra }
      *
      */
-    public TraDeclarationType createTraDeclarationType() {
-        return new TraDeclarationType();
+    public Tra createTraDeclarationType() {
+        return new Tra();
     }
 
     /**
-     * Create an instance of {@link CoeDeclarationType }
+     * Create an instance of {@link Coe }
      *
      */
-    public CoeDeclarationType createCoeDeclarationType() {
-        return new CoeDeclarationType();
+    public Coe createCoeDeclarationType() {
+        return new Coe();
     }
 
     /**
-     * Create an instance of {@link CoxDeclarationType }
+     * Create an instance of {@link Cox }
      *
      */
-    public CoxDeclarationType createCoxDeclarationType() {
-        return new CoxDeclarationType();
+    public Cox createCoxDeclarationType() {
+        return new Cox();
     }
 
     /**
-     * Create an instance of {@link CroDeclarationType }
+     * Create an instance of {@link Cro }
      *
      */
-    public CroDeclarationType createCroDeclarationType() {
-        return new CroDeclarationType();
+    public Cro createCroDeclarationType() {
+        return new Cro();
     }
 
     /**
-     * Create an instance of {@link TrzDeclarationType }
+     * Create an instance of {@link Trz }
      *
      */
-    public TrzDeclarationType createTrzDeclarationType() {
-        return new TrzDeclarationType();
+    public Trz createTrzDeclarationType() {
+        return new Trz();
     }
 
     /**
-     * Create an instance of {@link InsDeclarationType }
+     * Create an instance of {@link Ins }
      *
      */
-    public InsDeclarationType createInsDeclarationType() {
-        return new InsDeclarationType();
+    public Ins createInsDeclarationType() {
+        return new Ins();
     }
 
     /**
-     * Create an instance of {@link DisDeclarationType }
+     * Create an instance of {@link Dis }
      *
      */
-    public DisDeclarationType createDisDeclarationType() {
-        return new DisDeclarationType();
+    public Dis createDisDeclarationType() {
+        return new Dis();
     }
 
     /**
-     * Create an instance of {@link PnoDeclarationType }
+     * Create an instance of {@link Pno }
      *
      */
-    public PnoDeclarationType createPnoDeclarationType() {
-        return new PnoDeclarationType();
+    public Pno createPnoDeclarationType() {
+        return new Pno();
     }
 
     /**
-     * Create an instance of {@link PntDeclarationType }
+     * Create an instance of {@link Pnt }
      *
      */
-    public PntDeclarationType createPntDeclarationType() {
-        return new PntDeclarationType();
+    public Pnt createPntDeclarationType() {
+        return new Pnt();
     }
 
     /**
-     * Create an instance of {@link EofDeclarationType }
+     * Create an instance of {@link Eof }
      *
      */
-    public EofDeclarationType createEofDeclarationType() {
-        return new EofDeclarationType();
+    public Eof createEofDeclarationType() {
+        return new Eof();
     }
 
     /**
-     * Create an instance of {@link RtpDeclarationType }
+     * Create an instance of {@link Rtp }
      *
      */
-    public RtpDeclarationType createRtpDeclarationType() {
-        return new RtpDeclarationType();
+    public Rtp createRtpDeclarationType() {
+        return new Rtp();
     }
 
     /**
-     * Create an instance of {@link LanDeclarationType }
+     * Create an instance of {@link Lan }
      *
      */
-    public LanDeclarationType createLanDeclarationType() {
-        return new LanDeclarationType();
+    public Lan createLanDeclarationType() {
+        return new Lan();
     }
 
     /**
-     * Create an instance of {@link PosDeclarationType }
+     * Create an instance of {@link Pos }
      *
      */
-    public PosDeclarationType createPosDeclarationType() {
-        return new PosDeclarationType();
+    public Pos createPosDeclarationType() {
+        return new Pos();
     }
 
     /**
-     * Create an instance of {@link GesDeclarationType }
+     * Create an instance of {@link Ges }
      *
      */
-    public GesDeclarationType createGesDeclarationType() {
-        return new GesDeclarationType();
+    public Ges createGesDeclarationType() {
+        return new Ges();
     }
 
     /**
-     * Create an instance of {@link GerDeclarationType }
+     * Create an instance of {@link Ger }
      *
      */
-    public GerDeclarationType createGerDeclarationType() {
-        return new GerDeclarationType();
+    public Ger createGerDeclarationType() {
+        return new Ger();
     }
 
     /**
-     * Create an instance of {@link GilDeclarationType }
+     * Create an instance of {@link Gil }
      *
      */
-    public GilDeclarationType createGilDeclarationType() {
-        return new GilDeclarationType();
+    public Gil createGilDeclarationType() {
+        return new Gil();
     }
 
     /**
-     * Create an instance of {@link GlsDeclarationType }
+     * Create an instance of {@link Gls }
      *
      */
-    public GlsDeclarationType createGlsDeclarationType() {
-        return new GlsDeclarationType();
+    public Gls createGlsDeclarationType() {
+        return new Gls();
     }
 
     /**
-     * Create an instance of {@link RasDeclarationType }
+     * Create an instance of {@link Ras }
      *
      */
-    public RasDeclarationType createRasDeclarationType() {
-        return new RasDeclarationType();
+    public Ras createRasDeclarationType() {
+        return new Ras();
     }
 
     /**
-     * Create an instance of {@link SpeDeclarationType }
+     * Create an instance of {@link Spe }
      *
      */
-    public SpeDeclarationType createSpeDeclarationType() {
-        return new SpeDeclarationType();
+    public Spe createSpeDeclarationType() {
+        return new Spe();
     }
 
     /**
-     * Create an instance of {@link SpeLicDeclarationType }
+     * Create an instance of {@link SpeLic }
      *
      */
-    public SpeLicDeclarationType createSpeLicDeclarationType() {
-        return new SpeLicDeclarationType();
+    public SpeLic createSpeLicDeclarationType() {
+        return new SpeLic();
     }
 
     /**
-     * Create an instance of {@link ProDeclarationType }
+     * Create an instance of {@link Pro }
      *
      */
-    public ProDeclarationType createProDeclarationType() {
-        return new ProDeclarationType();
+    public Pro createProDeclarationType() {
+        return new Pro();
     }
 
     /**
-     * Create an instance of {@link CvtDeclarationType }
+     * Create an instance of {@link Cvt }
      *
      */
-    public CvtDeclarationType createCvtDeclarationType() {
-        return new CvtDeclarationType();
+    public Cvt createCvtDeclarationType() {
+        return new Cvt();
     }
 
     /**
-     * Create an instance of {@link CvoDeclarationType }
+     * Create an instance of {@link Cvo }
      *
      */
-    public CvoDeclarationType createCvoDeclarationType() {
-        return new CvoDeclarationType();
+    public Cvo createCvoDeclarationType() {
+        return new Cvo();
     }
 
     /**
-     * Create an instance of {@link JciDeclarationType }
+     * Create an instance of {@link Jci }
      *
      */
-    public JciDeclarationType createJciDeclarationType() {
-        return new JciDeclarationType();
+    public Jci createJciDeclarationType() {
+        return new Jci();
     }
 
     /**
-     * Create an instance of {@link BtiDeclarationType }
+     * Create an instance of {@link Bti }
      *
      */
-    public BtiDeclarationType createBtiDeclarationType() {
-        return new BtiDeclarationType();
+    public Bti createBtiDeclarationType() {
+        return new Bti();
     }
 
     /**
-     * Create an instance of {@link SizDeclarationType }
+     * Create an instance of {@link Siz }
      *
      */
-    public SizDeclarationType createSizDeclarationType() {
-        return new SizDeclarationType();
+    public Siz createSizDeclarationType() {
+        return new Siz();
     }
 
     /**
-     * Create an instance of {@link RecDeclarationType }
+     * Create an instance of {@link Rec }
      *
      */
-    public RecDeclarationType createRecDeclarationType() {
-        return new RecDeclarationType();
+    public Rec createRecDeclarationType() {
+        return new Rec();
     }
 
     /**
-     * Create an instance of {@link DonDeclarationType }
+     * Create an instance of {@link Don }
      *
      */
-    public DonDeclarationType createDonDeclarationType() {
-        return new DonDeclarationType();
+    public Don createDonDeclarationType() {
+        return new Don();
     }
 
     /**
-     * Create an instance of {@link PfpDeclarationType }
+     * Create an instance of {@link Pfp }
      *
      */
-    public PfpDeclarationType createPfpDeclarationType() {
-        return new PfpDeclarationType();
+    public Pfp createPfpDeclarationType() {
+        return new Pfp();
     }
 
     /**
-     * Create an instance of {@link FadDeclarationType }
+     * Create an instance of {@link Fad }
      *
      */
-    public FadDeclarationType createFadDeclarationType() {
-        return new FadDeclarationType();
+    public Fad createFadDeclarationType() {
+        return new Fad();
     }
 
     /**
-     * Create an instance of {@link SliDeclarationType }
+     * Create an instance of {@link Sli }
      *
      */
-    public SliDeclarationType createSliDeclarationType() {
-        return new SliDeclarationType();
+    public Sli createSliDeclarationType() {
+        return new Sli();
     }
 
     /**
-     * Create an instance of {@link SrcDeclarationType }
+     * Create an instance of {@link Src }
      *
      */
-    public SrcDeclarationType createSrcDeclarationType() {
-        return new SrcDeclarationType();
+    public Src createSrcDeclarationType() {
+        return new Src();
     }
 
     /**
-     * Create an instance of {@link CssDeclarationType }
+     * Create an instance of {@link Css }
      *
      */
-    public CssDeclarationType createCssDeclarationType() {
-        return new CssDeclarationType();
+    public Css createCssDeclarationType() {
+        return new Css();
     }
 
     /**
-     * Create an instance of {@link TliDeclarationType }
+     * Create an instance of {@link Tli }
      *
      */
-    public TliDeclarationType createTliDeclarationType() {
-        return new TliDeclarationType();
+    public Tli createTliDeclarationType() {
+        return new Tli();
     }
 
     /**
-     * Create an instance of {@link CstDeclarationType }
+     * Create an instance of {@link Cst }
      *
      */
-    public CstDeclarationType createCstDeclarationType() {
-        return new CstDeclarationType();
+    public Cst createCstDeclarationType() {
+        return new Cst();
     }
 
     /**
-     * Create an instance of {@link IdnDeclarationType }
+     * Create an instance of {@link Idn }
      *
      */
-    public IdnDeclarationType createIdnDeclarationType() {
-        return new IdnDeclarationType();
+    public Idn createIdnDeclarationType() {
+        return new Idn();
     }
 
     /**
-     * Create an instance of {@link ZonDeclarationType }
+     * Create an instance of {@link Zon }
      *
      */
-    public ZonDeclarationType createZonDeclarationType() {
-        return new ZonDeclarationType();
+    public Zon createZonDeclarationType() {
+        return new Zon();
     }
 
     /**
-     * Create an instance of {@link DlsDeclarationType }
+     * Create an instance of {@link Dls }
      *
      */
-    public DlsDeclarationType createDlsDeclarationType() {
-        return new DlsDeclarationType();
+    public Dls createDlsDeclarationType() {
+        return new Dls();
     }
 
     /**
-     * Create an instance of {@link DatElementType }
+     * Create an instance of {@link Dat }
      *
      */
-    public DatElementType createDatElementType() {
-        return new DatElementType();
+    public Dat createDatElementType() {
+        return new Dat();
     }
 
     /**
-     * Create an instance of {@link RetElementType }
+     * Create an instance of {@link Ret }
      *
      */
-    public RetElementType createRetElementType() {
-        return new RetElementType();
+    public Ret createRetElementType() {
+        return new Ret();
     }
 
     /**
-     * Create an instance of {@link DelElementType }
+     * Create an instance of {@link Del }
      *
      */
-    public DelElementType createDelElementType() {
-        return new DelElementType();
+    public Del createDelElementType() {
+        return new Del();
     }
 
     /**
-     * Create an instance of {@link CorElementType }
+     * Create an instance of {@link Cor }
      *
      */
-    public CorElementType createCorElementType() {
-        return new CorElementType();
+    public Cor createCorElementType() {
+        return new Cor();
     }
 
     /**
-     * Create an instance of {@link QueElementType }
+     * Create an instance of {@link Que }
      *
      */
-    public QueElementType createQueElementType() {
-        return new QueElementType();
+    public Que createQueElementType() {
+        return new Que();
     }
 
     /**
-     * Create an instance of {@link RspElementType }
+     * Create an instance of {@link Rsp }
      *
      */
-    public RspElementType createRspElementType() {
-        return new RspElementType();
+    public Rsp createRspElementType() {
+        return new Rsp();
     }
 
 }

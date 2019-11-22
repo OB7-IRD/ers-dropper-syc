@@ -28,25 +28,19 @@ public abstract class EvenementDePecheImpl implements EvenementDePeche {
      * @see fr.ird.driver.ers.business.EvenementDePeche#getDaDt()
      */
     @Override
-    public Date getDaDt() {
-        return null;
-    }
+    public abstract Date getDaDt();
 
     /**
      * @see fr.ird.driver.ers.business.EvenementDePeche#getDatiDt()
      */
     @Override
-    public Date getDatiDt() {
-        return null;
-    }
+    public abstract Date getDatiDt();
 
     /**
      * @see fr.ird.driver.ers.business.EvenementDePeche#getTiLb()
      */
     @Override
-    public String getTiLb() {
-        return null;
-    }
+    public abstract String getTiLb();
 
     /**
      * @see fr.ird.driver.ers.business.EvenementDePeche#getType()
@@ -60,7 +54,7 @@ public abstract class EvenementDePecheImpl implements EvenementDePeche {
      * @see fr.ird.driver.ers.business.EvenementDePeche#getLog()
      */
     @Override
-    public LogDeclarationType getLog() {
+    public Log getLog() {
         return null;
     }
 
