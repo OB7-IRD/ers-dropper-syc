@@ -1,8 +1,9 @@
 package fr.ird.dropper.ers.syc.service;
 
 import fr.ird.common.log.LogService;
-import fr.ird.driver.eva.service.EvaService;
-import fr.ird.dropper.ers.syc.business.CLS;
+import fr.ird.driver.eva.service.EvaDriverService;
+import fr.ird.dropper.ers.syc.business.Cls;
+
 import fr.ird.dropper.ers.syc.config.ERSDropperProperties;
 import java.io.File;
 
@@ -30,15 +31,15 @@ public class ErsMainService {
         properties.put("javax.persistence.jdbc.password", ERSDropperProperties.JDBC_PASSWORD);
         properties.put("javax.persistence.jdbc.driver", ERSDropperProperties.JDBC_DRIVER_CLASS);
         properties.put("javax.persistence.jdbc.user", ERSDropperProperties.JDBC_USERNAME);
-        EvaService.getService().init("eva", properties);
+        EvaDriverService.getService().init("eva", properties);
 
         // Initialisation du parser XML
-        JAXBContext jaxbContext = JAXBContext.newInstance(CLS.class);
+        JAXBContext jaxbContext = JAXBContext.newInstance(Cls.class);
         jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
     }
 
-    public CLS unmarshal(File file) throws JAXBException {
-        return (CLS) jaxbUnmarshaller.unmarshal(file);
+    public Cls unmarshal(File file) throws JAXBException {
+        return (Cls) jaxbUnmarshaller.unmarshal(file);
     }
 }
