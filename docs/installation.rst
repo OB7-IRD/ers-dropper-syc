@@ -49,8 +49,13 @@ Make the scripts inside the bin directory executable by issuing the following ch
 
 .. code-block:: console
 
-    $ sudo sh -c 'chmod +x /opt/ers-dropper/apps/bin/*.py'
+    $ sudo sh -c 'chmod +x /opt/ers-dropper/apps/bin/*'
 
+Both scripts requires somes Python packages, you install it whith :
+
+.. code-block:: console
+
+    $ pip3 install pysftp
 
 Configuration
 -------------
@@ -95,12 +100,13 @@ To configure the application, we need to log with the *ers* user:
 
     $ su - ers
 
-We need to set an environment variable which are used by the application's scripts.
+We need to and an environment variable, which are used by the application's scripts, in the user profile .
 
 .. code-block:: console
 
-    $ export ERS_HOME=/opt/ers-dropper/apps/
-    $ export ERS_DATA_HOME=/home/ers/ers_data_syc/
+    $ nano ~/.bash_profile
+    export ERS_HOME=/opt/ers-dropper/apps
+    export ERS_DATA_HOME=/home/ers/ers_data_syc
 
 Now we create the configuration directory and copy the default configuration file.
 
@@ -148,14 +154,16 @@ You need also to create the repositories which will contains your ERS message fr
         $ mkdir -p $ERS_DATA_HOME/traites
         $ mkdir -p $ERS_DATA_HOME/erreur
         $ mkdir -p $ERS_DATA_HOME/envoi
+        $ mkdir -p $ERS_DATA_HOME/archives
 
 To check that the repositories are created:
 
 .. code-block:: console
 
         $ ls -l  $ERS_DATA_HOME
-        total 16
-        drwxr-xr-x 2 root root 4096 14 nov.  12:20 depot
+        total 5
+        drwxr-xr-x 2 root root 4096 14 nov.  12:20 archives
+        drwxr-xr-x 2 root root 4096 14 nov.  12:20 depot        
         drwxr-xr-x 2 root root 4096 14 nov.  12:20 envoi
         drwxr-xr-x 2 root root 4096 14 nov.  12:20 erreur
         drwxr-xr-x 2 root root 4096 14 nov.  12:20 traites
@@ -166,11 +174,17 @@ Running the application
 =======================
 
 Once the application is installed and configured, you have two options to run the ERS Dropper.
-You can run manually via a specified script with the command below :
+But previously, you need get the ERS messages from CERIT server:
+
+.. code-block:: console
+    
+    $ /opt/ers-dropper/apps/bin/get_message.py
+
+After you can run manually the injector via a specified script with the command below :
 
 .. code-block:: console
 
-    $ python /opt/ers-dropper/apps/bin/dropper.py > /opt/ers-dropper/apps/log/ers.log
+    $ python /opt/ers-dropper/apps/bin/dropper.sh > /opt/ers-dropper/apps/log/ers.log
 
 Or you can configure the script as service. The configuration depends of your operating system. 
 For Linux OS, you will need to add the script at crontab. You can edit the crontab with `crontab -e` and you add the instructions belows:
@@ -179,7 +193,7 @@ For Linux OS, you will need to add the script at crontab. You can edit the cront
 
     ##### ERS software
     # Dropper run every day at 0730
-    30 7 * * * export ERS_HOME=/opt/ers-dropper/apps/;bash /opt/ers-dropper/apps/bin/dropper.py > $ERS_HOME/logs/ers.log
+    30 7 * * * export ERS_HOME=/opt/ers-dropper/apps/;bash /opt/ers-dropper/apps/bin/dropper.sh > $ERS_HOME/logs/ers.log
     # Copy the ERS messages, every day at 7:00
     0 7 * * * /opt/ers-dropper/apps/bin/get_message.py >> /opt/ers-dropper/apps/logs/sftp_ers_themis.log
 
