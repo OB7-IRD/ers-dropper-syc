@@ -6,41 +6,43 @@
 //
 package fr.ird.dropper.ers.syc.business;
 
-import java.util.ArrayList;
-import java.util.List;
+import fr.ird.common.DateTimeUtils;
+import fr.ird.common.OTUtils;
+import java.util.Date;
 import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
+import org.joda.time.DateTime;
 
 /**
- * Fishing license.
- *
  * <p>
- * Classe Java pour LicDeclarationType complex type.
+ * Classe Java pour anonymous complex type.
  *
  * <p>
  * Le fragment de schéma suivant indique le contenu attendu figurant dans cette
  * classe.
  *
  * <pre>
- * &lt;complexType name="LicDeclarationType"&gt;
+ * &lt;complexType&gt;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *       &lt;sequence&gt;
- *         &lt;element name="IDN" type="{http://ec.europa.eu/fisheries/schema/ers/v3}IdnDeclarationType"/&gt;
- *         &lt;element name="ZON" type="{http://ec.europa.eu/fisheries/schema/ers/v3}ZonDeclarationType" maxOccurs="unbounded" minOccurs="0"/&gt;
- *         &lt;element name="SPE" type="{http://ec.europa.eu/fisheries/schema/ers/v3}SpeLicDeclarationType" maxOccurs="unbounded" minOccurs="0"/&gt;
- *         &lt;element name="GEA" type="{http://ec.europa.eu/fisheries/schema/ers/v3}GeaDeclarationType" maxOccurs="unbounded" minOccurs="0"/&gt;
- *       &lt;/sequence&gt;
- *       &lt;attribute name="RN" use="required" type="{http://ec.europa.eu/fisheries/schema/ers/v3}RecordNumberType" /&gt;
- *       &lt;attribute name="RD" use="required" type="{http://ec.europa.eu/fisheries/schema/ers/v3}UtcDateType" /&gt;
- *       &lt;attribute name="RT" use="required" type="{http://ec.europa.eu/fisheries/schema/ers/v3}UtcTimeType" /&gt;
- *       &lt;attribute name="NL" use="required" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="ST" use="required"&gt;
+ *       &lt;choice&gt;
+ *         &lt;element name="LOG" type="{http://ec.europa.eu/fisheries/schema/ers/v3}LogDeclarationType"/&gt;
+ *         &lt;element name="SAL" type="{http://ec.europa.eu/fisheries/schema/ers/v3}SalDeclarationType"/&gt;
+ *         &lt;element name="TRN" type="{http://ec.europa.eu/fisheries/schema/ers/v3}TrnDeclarationType"/&gt;
+ *       &lt;/choice&gt;
+ *       &lt;attribute name="RN" type="{http://ec.europa.eu/fisheries/schema/ers/v3}RecordNumberType" /&gt;
+ *       &lt;attribute name="ID" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="RD" type="{http://ec.europa.eu/fisheries/schema/ers/v3}UtcDateType" /&gt;
+ *       &lt;attribute name="RT" type="{http://ec.europa.eu/fisheries/schema/ers/v3}UtcTimeType" /&gt;
+ *       &lt;attribute name="DC" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="DP" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="ST"&gt;
  *         &lt;simpleType&gt;
  *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
  *             &lt;enumeration value="VAL"/&gt;
@@ -59,40 +61,43 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "LicDeclarationType", propOrder = {
-    "idn",
-    "zon",
-    "spe",
-    "gea"
+@XmlType(name = "", propOrder = {
+    "log",
+    "sal",
+    "trn"
 })
+@XmlRootElement(name = "ERS")
 @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-public class Lic {
+public class Ers {
 
-    @XmlElement(name = "IDN", required = true)
+    @XmlElement(name = "LOG")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected Idn idn;
-    @XmlElement(name = "ZON")
+    protected Log log;
+    @XmlElement(name = "SAL")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected List<Zon> zon;
-    @XmlElement(name = "SPE")
+    protected Sal sal;
+    @XmlElement(name = "TRN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected List<SpeLic> spe;
-    @XmlElement(name = "GEA")
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected List<Gea> gea;
-    @XmlAttribute(name = "RN", required = true)
+    protected Trn trn;
+    @XmlAttribute(name = "RN")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String rn;
-    @XmlAttribute(name = "RD", required = true)
+    @XmlAttribute(name = "ID")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    protected String id;
+    @XmlAttribute(name = "RD")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected XMLGregorianCalendar rd;
-    @XmlAttribute(name = "RT", required = true)
+    @XmlAttribute(name = "RT")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String rt;
-    @XmlAttribute(name = "NL", required = true)
+    @XmlAttribute(name = "DC")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    protected String nl;
-    @XmlAttribute(name = "ST", required = true)
+    protected String dc;
+    @XmlAttribute(name = "DP")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    protected String dp;
+    @XmlAttribute(name = "ST")
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     protected String st;
     @XmlAttribute(name = "CN")
@@ -100,115 +105,69 @@ public class Lic {
     protected String cn;
 
     /**
-     * Obtient la valeur de la propriété idn.
+     * Obtient la valeur de la propriété log.
      *
-     * @return possible object is {@link Idn }
+     * @return possible object is {@link Log }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public Idn getIDN() {
-        return idn;
+    public Log getLOG() {
+        return log;
     }
 
     /**
-     * Définit la valeur de la propriété idn.
+     * Définit la valeur de la propriété log.
      *
-     * @param value allowed object is {@link Idn }
+     * @param value allowed object is {@link Log }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setIDN(Idn value) {
-        this.idn = value;
+    public void setLOG(Log value) {
+        this.log = value;
     }
 
     /**
-     * Gets the value of the zon property.
+     * Obtient la valeur de la propriété sal.
      *
-     * <p>
-     * This accessor method returns a reference to the live list, not a
-     * snapshot. Therefore any modification you make to the returned list will
-     * be present inside the JAXB object. This is why there is not a
-     * <CODE>set</CODE> method for the zon property.
-     *
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getZON().add(newItem);
-     * </pre>
-     *
-     *
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Zon }
-     *
+     * @return possible object is {@link Sal }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public List<Zon> getZON() {
-        if (zon == null) {
-            zon = new ArrayList<Zon>();
-        }
-        return this.zon;
+    public Sal getSAL() {
+        return sal;
     }
 
     /**
-     * Gets the value of the spe property.
+     * Définit la valeur de la propriété sal.
      *
-     * <p>
-     * This accessor method returns a reference to the live list, not a
-     * snapshot. Therefore any modification you make to the returned list will
-     * be present inside the JAXB object. This is why there is not a
-     * <CODE>set</CODE> method for the spe property.
-     *
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getSPE().add(newItem);
-     * </pre>
-     *
-     *
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link SpeLic }
-     *
+     * @param value allowed object is {@link Sal }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public List<SpeLic> getSPE() {
-        if (spe == null) {
-            spe = new ArrayList<SpeLic>();
-        }
-        return this.spe;
+    public void setSAL(Sal value) {
+        this.sal = value;
     }
 
     /**
-     * Gets the value of the gea property.
+     * Obtient la valeur de la propriété trn.
      *
-     * <p>
-     * This accessor method returns a reference to the live list, not a
-     * snapshot. Therefore any modification you make to the returned list will
-     * be present inside the JAXB object. This is why there is not a
-     * <CODE>set</CODE> method for the gea property.
-     *
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getGEA().add(newItem);
-     * </pre>
-     *
-     *
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Gea }
-     *
+     * @return possible object is {@link Trn }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public List<Gea> getGEA() {
-        if (gea == null) {
-            gea = new ArrayList<Gea>();
-        }
-        return this.gea;
+    public Trn getTRN() {
+        return trn;
+    }
+
+    /**
+     * Définit la valeur de la propriété trn.
+     *
+     * @param value allowed object is {@link Trn }
+     *
+     */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    public void setTRN(Trn value) {
+        this.trn = value;
     }
 
     /**
@@ -231,6 +190,28 @@ public class Lic {
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
     public void setRN(String value) {
         this.rn = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété id.
+     *
+     * @return possible object is {@link String }
+     *
+     */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    public String getID() {
+        return id;
+    }
+
+    /**
+     * Définit la valeur de la propriété id.
+     *
+     * @param value allowed object is {@link String }
+     *
+     */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    public void setID(String value) {
+        this.id = value;
     }
 
     /**
@@ -278,25 +259,47 @@ public class Lic {
     }
 
     /**
-     * Obtient la valeur de la propriété nl.
+     * Obtient la valeur de la propriété dc.
      *
      * @return possible object is {@link String }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public String getNL() {
-        return nl;
+    public String getDC() {
+        return dc;
     }
 
     /**
-     * Définit la valeur de la propriété nl.
+     * Définit la valeur de la propriété dc.
      *
      * @param value allowed object is {@link String }
      *
      */
     @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
-    public void setNL(String value) {
-        this.nl = value;
+    public void setDC(String value) {
+        this.dc = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété dp.
+     *
+     * @return possible object is {@link String }
+     *
+     */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    public String getDP() {
+        return dp;
+    }
+
+    /**
+     * Définit la valeur de la propriété dp.
+     *
+     * @param value allowed object is {@link String }
+     *
+     */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2019-07-04T06:18:33+04:00", comments = "JAXB RI v2.3.0")
+    public void setDP(String value) {
+        this.dp = value;
     }
 
     /**
@@ -343,4 +346,106 @@ public class Lic {
         this.cn = value;
     }
 
+    public String getErsRtLb() {
+        return rt;
+    }
+
+    public Date getErsRdtDt() {
+        return DateTimeUtils.createDateTime(getErsRdDt(), rt).toDate();
+    }
+
+    public Date getErsRdDt() {
+        return rd.toGregorianCalendar().getTime();
+    }
+
+    public Log getLog() {
+        return log;
+    }
+
+    public void setLog(Log log) {
+        this.log = log;
+    }
+
+    public Sal getSal() {
+        return sal;
+    }
+
+    public void setSal(Sal sal) {
+        this.sal = sal;
+    }
+
+    public Trn getTrn() {
+        return trn;
+    }
+
+    public void setTrn(Trn trn) {
+        this.trn = trn;
+    }
+
+    public String getRn() {
+        return rn;
+    }
+
+    public void setRn(String rn) {
+        this.rn = rn;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public XMLGregorianCalendar getRd() {
+        return rd;
+    }
+
+    public void setRd(XMLGregorianCalendar rd) {
+        this.rd = rd;
+    }
+
+    public String getRt() {
+        return rt;
+    }
+
+    public void setRt(String rt) {
+        this.rt = rt;
+    }
+
+    public String getDc() {
+        return dc;
+    }
+
+    public void setDc(String dc) {
+        this.dc = dc;
+    }
+
+    public String getDp() {
+        return dp;
+    }
+
+    public void setDp(String dp) {
+        this.dp = dp;
+    }
+
+    public String getSt() {
+        return st;
+    }
+
+    public void setSt(String st) {
+        this.st = st;
+    }
+
+    public String getCn() {
+        return cn;
+    }
+
+    public void setCn(String cn) {
+        this.cn = cn;
+    }
+
+    
+    
 }
